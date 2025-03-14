@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  This file contains only the Tailwind directives.
+  Your existing CSS in Results.css and other files will remain untouched.
+  You can use Tailwind utility classes alongside your custom CSS.
+*/ 
