@@ -161,4 +161,34 @@
   .form-actions button {
     width: 100%;
   }
+}
+
+/* Add these overrides to ensure inputs have light backgrounds */
+.create-survey-form input[type="text"],
+.create-survey-form textarea,
+.create-survey-form select {
+  background-color: white !important;
+  color: #374151 !important;
+}
+
+/* Ensure select options are visible */
+.create-survey-form select option {
+  background-color: white;
+  color: #374151;
+}
+
+/* Ensure checkboxes are displayed properly */
+.create-survey-form .checkbox-item {
+  background-color: #f9fafb;
+}
+
+/* Ensure no dark mode is applied to form elements */
+@media (prefers-color-scheme: dark) {
+  .create-survey-form input[type="text"],
+  .create-survey-form textarea,
+  .create-survey-form select,
+  .create-survey-form select option {
+    background-color: white !important;
+    color: #374151 !important;
+  }
 } 
