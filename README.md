@@ -2,6 +2,8 @@
 
 A React application built with Vite that provides a platform for creating, participating in, and viewing results of software engineer salary surveys. This project aims to improve salary transparency in the tech industry.
 
+![image](public/image.png)
+
 ## Features
 
 - **Landing Page**: Entry point to create surveys, view ongoing surveys, or see results
